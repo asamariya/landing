@@ -1,0 +1,43 @@
+.banner {
+  object-fit: cover;
+  background-image: url("../../images/concreteBldg.jpg");
+  background-size: cover;
+  height: 50vh;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-info {
+  text-align: center;
+  color: white;
+}
+
+.b-info h1 {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 4em;
+  margin: 0;
+}
+
+.b-info p {
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 12px 8px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
+}
+
+.btn:hover {
+  background: white;
+  color: black;
+  transition: 0.3s;
+}
+
+
