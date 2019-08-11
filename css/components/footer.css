@@ -5,8 +5,9 @@
   color: white;
 }
 
-.list-inline {
+.footer > ul > .social {
   list-style: none;
+  padding: 0 !important;
 }
 
 li {
@@ -20,7 +21,7 @@ li {
 }
 
 .footer a:hover {
-  transform:scale(1.5,1.5);
+  transform: scale(1.5, 1.5);
   color: gray;
   transition: 0.3s;
 }
